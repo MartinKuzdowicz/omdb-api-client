@@ -1,0 +1,75 @@
+body {
+  background: #ccc;
+  font-family: helvetica, arial;
+  font-size: 16px;
+}
+
+input {
+  font-family: helvetica, arial;
+  font-size: 16px;
+}
+
+.main-layout {
+  width: 50%;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.film-list {
+  padding: 0;
+  li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    list-style: none;
+    margin-top: 10px;
+    div {
+      margin-top: 10px;
+      img {
+        margin-top: 10px;
+        width: 250px;
+        border: 1px solid #ccc;
+        &:hover {
+          opacity: 0.8;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  p.film-list-li-details-desc {
+    color: royalblue;
+    margin: 0;
+  }
+}
+
+.one-film-full-desc {
+  h3.one-film-ratings-year-time-sec {
+    font-weight: 100;
+    color: #636363;
+    .one-film-ratings {
+      font-weight: 700;
+      color: green;
+      padding: 0.4em;
+    }
+  }
+  .one-film-full-desc-plot {
+    p {
+      padding: 1em;
+      background-color: #f1f1f1;
+    }
+  }
+  .first-section {
+    padding: 1em 2em 0;
+    text-align: center;
+    .first-section-img {
+      img {
+        border: 1px solid #ccc;
+      }
+    }
+  }
+}
+
+.hide {
+  display: none
+}
